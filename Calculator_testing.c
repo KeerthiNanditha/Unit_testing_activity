@@ -8,6 +8,8 @@ void add_test()
     assert(calculator(2,'+',2)==4);
     assert(calculator(2,'+',-2)==(0));
     assert(calculator(-2,'+',-2)==(-4));
+    assert(calculator(0,'+',2)==(2));
+    assert(calculator(0,'+',-2)==(-2));
     printf("OK, Addition Tested...\n");
 }
 
