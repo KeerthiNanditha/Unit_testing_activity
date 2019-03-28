@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<assert.h>
-#include "Calculator.h"
+
+float calculator(float , char , float);
 
 void add_test()
 {
