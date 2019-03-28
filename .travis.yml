@@ -6,5 +6,4 @@ script:
   - ./Calculator_function
   - gcc -o Calculator_testing Calculator_testing.c
   - ./Calculator_testing
-  - gcc -o Calculator Calculator.h
-  - ./Calculator
+
