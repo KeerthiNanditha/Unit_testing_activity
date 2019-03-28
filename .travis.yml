@@ -1,1 +1,6 @@
-
+language: c
+sudo: false # only for faster builds
+compiler: gcc
+script:
+  - gcc -o Calculator_function Calculator_function.c
+  - ./Calculator_function
